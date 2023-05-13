@@ -16,7 +16,6 @@ djoser = "^2.2.0"
 djangorestframework-simplejwt = "^5.2.2"
 psycopg2 = "^2.9.6"
 pillow = "^9.5.0"
-django-resized = "^1.0.2"
 redis = "^4.5.5"
 
 
@@ -42,6 +41,7 @@ warn_unused_configs = true
 warn_unreachable = true
 warn_no_return = true
 warn_return_any = true
+no_implicit_optional = false
 exclude = ["manage.py", "urls.py"]
 plugins = ["mypy_django_plugin.main", "mypy_drf_plugin.main"]
 
