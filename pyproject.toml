@@ -17,6 +17,8 @@ djangorestframework-simplejwt = "^5.2.2"
 psycopg2 = "^2.9.6"
 pillow = "^9.5.0"
 redis = "^4.5.5"
+django-bleach = "^3.0.1"
+django-cleanup = "^7.0.0"
 
 
 [tool.poetry.group.dev.dependencies]
